@@ -1,0 +1,296 @@
+/* Reset & Basic */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: #C7B7A3;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+header nav a {
+    margin-left: 2rem;
+    font-weight: 500;
+    color: #333;
+}
+
+header nav a.button {
+    background-color: #561C24;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: #fff;
+}
+
+/* Intro Section */
+.intro {
+    display: flex;
+    padding: 2rem 4rem;
+    gap: 4rem;
+    align-items: flex-start;
+}
+
+.intro-text {
+    flex: 1;
+}
+
+.intro-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.intro-text p {
+    margin-bottom: 1rem;
+    max-width: 500px;
+}
+
+.intro-text a {
+    display: inline-block;
+    background-color: #561C24;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.intro-image {
+    position: relative;
+    flex: 0.9;
+    max-width: 350px;
+    border-radius: 20px;
+    margin-right: 60px;
+
+    
+}
+
+.intro-image img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    
+}
+
+.intro-image .label {
+    position: absolute;
+    background-color: #561C24;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.intro-image .dob {
+    top: 10px;
+    left: 10px;
+}
+
+.intro-image .nationality {
+    bottom: 10px;
+    left: 10px;
+}
+
+.intro-image .contact {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 0.9rem;
+   
+}
+
+/* Sections */
+.section {
+    padding: 2rem 4rem;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #E8D8C4;
+}
+
+/* Education + Technical Skills container */
+.education-tech-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 4rem;
+    background-color: #561C24;
+    color: black;
+    width: 98%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+/* Education */
+.education-container {
+     /* original dark red */
+    color: black;
+    flex: 1;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.education-container h2{
+    color: #C7B7A3;
+}
+span{
+color: #C7B7A3;
+}
+.tech h2{
+     color: #C7B7A3;
+}
+.entry {
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.subtitle {
+    margin-left: 1rem;
+    font-style: italic;
+}
+
+/* Technical Skills */
+.tech-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 30px;
+    
+}
+
+/* Software + Web Dev skills */
+.skills-list {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.pill, .pill button {
+    background-color: #E8D8C4; /* original yellow */
+    color: black;
+    padding: 0.3rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: none;
+    cursor: default;
+}
+
+/* Skills pills */
+.pill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+
+.bottom-section-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 4rem;
+  color: #E8D8C4;
+}
+
+/* Left block: Experience + Activities */
+.left-block {
+  background-color: #561C24; /* red/orange block */
+  flex: 1;
+  padding: 2rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/* Right block: Languages + Hobbies */
+.right-block {
+  background-color: #6D2932; /* yellow block */
+  flex: 1;
+  padding: 2rem;
+  border-radius: 10px;
+  color: #C7B7A3;
+}
+
+/* Entries inside left block */
+.left-block .entry {
+  margin-bottom: 1rem;
+}
+
+.left-block .title {
+  font-weight: bold;
+  color: rgba(26, 10, 10, 0.92);
+}
+
+.left-block .subtitle {
+  margin-left: 1rem;
+  font-style: italic;
+  
+}
+
+/* Language bars */
+.lang{
+    color: white;
+}
+.lang span{
+    color: rgba(26, 10, 10, 0.92);
+    font-weight: bold;
+}
+
+
+/* Hobbies pills */
+.right-block .pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+}
+
+.right-block .pill {
+  background-color: #C7B7A3;
+  color: black;;
+  padding: 0.3rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.github{
+    background-color: #C7B7A3;
+    border-radius: 30px;
+    padding: 12px 22px;
+    font-size: 20px;
+    border-color: #C7B7A3;
+    margin-top:20px ;
+    margin-left: 190px;
+    font-weight: bold;
+}
+
+.github:hover{
+    background-color: rgba(0, 0, 0, 0.564);
+    color: #C7B7A3;
+    border-color: rgba(0, 0, 0, 0.564);
+}

@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    background: #461220;
+}
+
+/* HEADER ------------------------------------ */
+
+header {
+    width: 100%;
+    padding: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #461220;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+}
+
+
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-color: black;
+}
+
+button a:hover{
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-color: black;
+}
+.contact-btn {
+    background: #C7B7A3;
+    color: black;
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-color: black;
+}
+
+/* HERO SECTION ------------------------------- */
+
+.hero {
+    background: #461220;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.left-side {
+    width: 40%;
+    position: relative;
+}
+
+.image-box {
+    position: relative;
+    width: 320px;
+    height: 380px;
+    background: #d57a3b;
+    margin-bottom: 20px;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(2px);
+}
+
+.description {
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* RIGHT SIDE TEXT ---------------------------- */
+
+.right-side {
+    width: 80%;
+    position: relative;
+
+}
+
+.title-cream {
+    font-size: 110px;
+    color: #fff1d0;
+    line-height: 1;
+    
+}
+
+.title-outline {
+    font-size: 110px;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff1d0;
+    line-height: 1;
+    margin-left: 5px;
+}
+
+.title-outline.bottom {
+    margin-top: -20px;
+
+}
+
+.links {
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-left: 250px;
+    text-decoration: none;
+    
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.links a:hover{
+    color: #C7B7A3;
+}
